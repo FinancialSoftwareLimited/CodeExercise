@@ -1,0 +1,7 @@
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\bin\Debug\FSLCodeExercise.UnitTest.dll
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\bin\Debug\FSLCodeExercise.UnitTest.pdb
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\bin\Debug\FSLCodeExercise.Core.dll
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\bin\Debug\FSLCodeExercise.Core.pdb
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\obj\Debug\FSLCodeExercise.Core.UnitTest.csprojResolveAssemblyReference.cache
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\obj\Debug\FSLCodeExercise.UnitTest.dll
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.UnitTest\obj\Debug\FSLCodeExercise.UnitTest.pdb
