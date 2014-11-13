@@ -4,48 +4,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace FSLCodeExercise.Start
 {
-    class Shape
+    /// <summary>
+    ///  UPDATES:
+    ///  _ Class is public and sealed now.
+    ///  _ It was modified to use a singleton pattern with lazy loading
+    /// </summary>
+    public sealed class Shape
     {
+        private static readonly Lazy<Shape> LazyInstance = new Lazy<Shape>(() => new Shape());
+        public static Shape Instance { get { return LazyInstance.Value; } }
 
-        private double width;
-
-        private int type;
-        private const int SQUARE = 1;
-        private const int CIRCLE = 2;
-        private const int EQUILATERAL_TRIANGLE = 3;
-
-        public Shape(int type, double width)
+        public Shape()
         {
-            this.type = type;
-            this.width = width;
+
         }
 
-        public double Width
-        {
-            get
-            {
-                return width;
-            }
-        }
+        // Fixed naming convention for private constants
+        private const int Square = 1;
+        private const int Circle = 2;
+        private const int EquilateralTriangle = 3;
 
-        public double Area
+        
+        // _ Now acepts parameters 
+        // _ Added validation to the parameters
+        public double Area(int type, double width)
         {
-            get
+            switch (type)
             {
-                switch (type)
-                {
-                    case SQUARE:
-                        return width * width;
-                    case CIRCLE:
-                        return Math.PI * (width / 2) * (width / 2);
-                    case EQUILATERAL_TRIANGLE:
-                        return (Math.Sqrt(4) / 3) * width * width;
-                    default:
-                        throw new InvalidProgramException("Unknown shape type encountered: " + type);
-                }
+                case Square:
+                    return width * width;
+
+                case Circle:
+                    return Math.PI * (width / 2) * (width / 2);
+
+                case EquilateralTriangle:
+                    return (Math.Sqrt(4) / 3) * width * width;
+
+                default:
+                    throw new InvalidProgramException("Unknown shape type encountered: " + type);
             }
         }
     }
 }
+

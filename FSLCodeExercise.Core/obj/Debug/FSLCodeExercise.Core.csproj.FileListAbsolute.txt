@@ -1,0 +1,5 @@
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.Core\bin\Debug\FSLCodeExercise.Core.dll
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.Core\bin\Debug\FSLCodeExercise.Core.pdb
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.Core\obj\Debug\FSLCodeExercise.Core.dll
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.Core\obj\Debug\FSLCodeExercise.Core.pdb
+C:\Development\Personal\GIT\CodeExercise\FSLCodeExercise.Core\obj\Debug\FSLCodeExercise.Core.csprojResolveAssemblyReference.cache

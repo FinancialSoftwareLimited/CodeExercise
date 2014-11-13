@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSLCodeExercise.Start", "FSLCodeExercise.Start\FSLCodeExercise.Start.csproj", "{A94BEC8F-F9ED-465B-936B-F68F28DB97D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSLCodeExercise.Core", "FSLCodeExercise.Core\FSLCodeExercise.Core.csproj", "{F4CC8041-8F81-4DDB-9288-0BAA70EB5CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSLCodeExercise.Core.UnitTest", "FSLCodeExercise.UnitTest\FSLCodeExercise.Core.UnitTest.csproj", "{9745E6F0-1A6F-44B7-B8ED-C3B0CFDED1F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{A94BEC8F-F9ED-465B-936B-F68F28DB97D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94BEC8F-F9ED-465B-936B-F68F28DB97D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94BEC8F-F9ED-465B-936B-F68F28DB97D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CC8041-8F81-4DDB-9288-0BAA70EB5CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CC8041-8F81-4DDB-9288-0BAA70EB5CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CC8041-8F81-4DDB-9288-0BAA70EB5CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CC8041-8F81-4DDB-9288-0BAA70EB5CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9745E6F0-1A6F-44B7-B8ED-C3B0CFDED1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9745E6F0-1A6F-44B7-B8ED-C3B0CFDED1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9745E6F0-1A6F-44B7-B8ED-C3B0CFDED1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9745E6F0-1A6F-44B7-B8ED-C3B0CFDED1F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
